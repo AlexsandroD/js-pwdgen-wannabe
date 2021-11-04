@@ -27,7 +27,7 @@ body{
     left: 0;
     bottom: 0;
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .testo{
@@ -37,6 +37,10 @@ body{
     color: #fafafa;
     text-transform: uppercase;
   
+}
+
+h1{
+    font-size: 50px;
 }
 
 p{

@@ -17,8 +17,10 @@ console.log(myFavColor);
 const num = 21;
 console.log(num);
 
-let somma = myName + myLastName + myFavColor + num;
-console.log(somma);
+// let somma = myName + myLastName + myFavColor + num;
+// console.log(somma);
 
+let somma = (`${myName}${myLastName}${myFavColor}`) + num;
+console.log(somma);
 
 document.getElementById('password').innerHTML = somma;
